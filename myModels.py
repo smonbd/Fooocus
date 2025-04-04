@@ -1,56 +1,79 @@
-import os
-import urllib.request
+import requests
 from tqdm import tqdm
+import os
 
-def download_file_with_auth(url, destination_path, headers):
-    if os.path.exists(destination_path):
-        print(f"✅ {destination_path} already exists.")
+# CivitAI API Key (Replace with your key)
+API_KEY = imput("Insert CivitAI Api Key")  # Replace with your actual token
+
+# Headers for authentication
+headers = {
+    "Authorization": f"Bearer {API_KEY}",
+    "User-Agent": "Mozilla/5.0"
+}
+
+# List of models to download
+files = [
+    {
+        "url": "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16",
+        "path": "models/checkpoints/RealVisXL_V5.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor",
+        "path": "models/loras/hands.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/129711?type=Model&format=SafeTensor",
+        "path": "models/loras/eyes.safetensors"
+    }, 
+    {
+        "url": "https://civitai.com/api/download/models/556292?type=Model&format=SafeTensor",
+        "path": "models/loras/Crazy_Girlfriend_Mix.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/911708?type=Model&format=SafeTensor",
+        "path": "models/loras/Hourglass_Body_Shape.safetensors"
+    }
+]
+
+# Function to download a file
+def download_file(url, path):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    # Check if file already exists
+    if os.path.exists(path):
+        print(f"✅ [SKIP] File already exists: {path}")
         return
 
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req) as response:
-        total_size = int(response.getheader('Content-Length').strip())
-        chunk_size = 1024  # 1 KB
+    print(f"⬇️ [DOWNLOAD] {url} → {path}")
 
-        os.makedirs(os.path.dirname(destination_path), exist_ok=True)
-        with open(destination_path, 'wb') as out_file, tqdm(
-            total=total_size, unit='B', unit_scale=True, desc=os.path.basename(destination_path)
-        ) as pbar:
-            while True:
-                chunk = response.read(chunk_size)
-                if not chunk:
-                    break
-                out_file.write(chunk)
-                pbar.update(len(chunk))
+    # Start request
+    response = requests.get(url, headers=headers, stream=True)
+    total_size = int(response.headers.get("content-length", 0))
 
-def main():
-    # API Token (replace or load from env)
-    token = "your_api_token_here"  # or os.getenv("MY_API_TOKEN")
+    # Check for authentication or request failure
+    if response.status_code == 401:
+        print("⚠️ Error: Authentication failed. Check your API key!")
+        return
+    elif response.status_code != 200:
+        print(f"❌ Error {response.status_code}: Failed to download {url}")
+        return
 
-    # URLs
-    files = [
-        {
-            "url": "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16",
-            "path": "models/checkpoints/RealVisXL.safetensors"
-        },
-        {
-            "url": "https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor",
-            "path": "models/loras/hands.safetensors"
-        },
-        {
-            "url": "https://civitai.com/api/download/models/129711?type=Model&format=SafeTensor",
-            "path": "models/loras/Eyes.safetensors"
-        }
-    ]
+    # Download file with progress bar
+    with open(path, "wb") as file, tqdm(
+        desc=os.path.basename(path),
+        total=total_size,
+        unit="B",
+        unit_scale=True,
+        unit_divisor=1024,
+    ) as bar:
+        for chunk in response.iter_content(chunk_size=8192):
+            if chunk:
+                file.write(chunk)
+                bar.update(len(chunk))
 
-    # Headers
-    headers = {
-        "Authorization": f"Bearer {token}"
-    }
+    print(f"✅ [SUCCESS] Download completed: {path}")
 
-    # Download all files
+# Function to run all downloads
+def myModelsRun():
     for file in files:
-        download_file_with_auth(file["url"], file["path"], headers)
-
-if __name__ == "__main__":
-    main()
+        download_file(file["url"], file["path"])
