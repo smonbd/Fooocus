@@ -32,6 +32,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/911708?type=Model&format=SafeTensor",
         "path": "models/loras/Hourglass_Body_Shape.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/993780?type=Model&format=SafeTensor",
+        "path": "models/loras/Perfect_Round_Ass.safetensors"
     }
 ]
 
