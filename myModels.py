@@ -59,7 +59,7 @@ files = [
     },
     {
         "url": "https://civitai.com/api/download/models/151465?type=Model&format=SafeTensor",
-        "path": "models/loras/ReaLora_Realistic_skin_texture/.safetensors"
+        "path": "models/loras/ReaLora_Realistic_skin_texture.safetensors"
     }
 ]
 
