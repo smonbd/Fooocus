@@ -18,6 +18,10 @@ files = [
         "path": "models/checkpoints/RealVisXL_V5.safetensors"
     },
     {
+        "url": "https://civitai.com/api/download/models/172306?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "path": "models/loras/epiCPhotoGasm.safetensors"
+    },
+    {
         "url": "https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor",
         "path": "models/loras/hands.safetensors"
     },
