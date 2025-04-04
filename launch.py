@@ -3,8 +3,8 @@ import ssl
 import sys
 
 # Run custom model setup before main UI starts
-import myModels
-myModels.run()
+from myModels import *
+myModelsRun()
 
 print('[System ARGV] ' + str(sys.argv))
 
