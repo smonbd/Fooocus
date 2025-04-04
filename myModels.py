@@ -36,6 +36,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/993780?type=Model&format=SafeTensor",
         "path": "models/loras/Perfect_Round_Ass.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/481917?type=Model&format=SafeTensor",
+        "path": "models/loras/Cinematic_Shot.safetensors"
     }
 ]
 
