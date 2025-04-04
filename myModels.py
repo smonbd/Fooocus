@@ -44,6 +44,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/481917?type=Model&format=SafeTensor",
         "path": "models/loras/Cinematic_Shot.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor",
+        "path": "models/loras/epiCRealismHelper.safetensors"
     }
 ]
 
