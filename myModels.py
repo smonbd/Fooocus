@@ -48,6 +48,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor",
         "path": "models/loras/epiCRealismHelper.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor",
+        "path": "models/loras/Detail_Tweaker_LoRA.safetensors"
     }
 ]
 
