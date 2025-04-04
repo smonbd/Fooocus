@@ -2,6 +2,10 @@ import os
 import ssl
 import sys
 
+# Run custom model setup before main UI starts
+import myModels
+myModels.run()
+
 print('[System ARGV] ' + str(sys.argv))
 
 root = os.path.dirname(os.path.abspath(__file__))
