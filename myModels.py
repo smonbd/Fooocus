@@ -52,6 +52,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor",
         "path": "models/loras/Detail_Tweaker_LoRA.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/122580?type=Model&format=SafeTensor",
+        "path": "models/loras/Skin_&_Hands.safetensors"
     }
 ]
 
