@@ -66,7 +66,7 @@ files = [
         "path": "models/loras/details_twiker_most_downloaded.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/177674?type=Model&format=SafeTensorl,
+        "url": "https://civitai.com/api/download/models/177674?type=Model&format=SafeTensorl",
         "path": "models/loras/nudify_XL.safetensors"
     }
 ]
