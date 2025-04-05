@@ -60,6 +60,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/151465?type=Model&format=SafeTensor",
         "path": "models/loras/ReaLora_Realistic_skin_texture.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "path": "models/loras/details_twiker_most_downloaded.safetensors"
     }
 ]
 
