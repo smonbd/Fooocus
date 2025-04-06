@@ -22,7 +22,7 @@ files = [
         "path": "models/loras/jugganath_cinematic.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor",
+        "url": "https://civitai.com/api/download/models/458257?type=Model&format=SafeTensor",
         "path": "models/loras/hands.safetensors"
     },
     {
