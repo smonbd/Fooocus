@@ -328,6 +328,11 @@ default_loras = get_config_item_or_set_default(
             True,
             "None",
             1.0
+        ],
+        [
+            True,
+            "None",
+            1.0
         ]
     ],
     validator=lambda x: isinstance(x, list) and all(
