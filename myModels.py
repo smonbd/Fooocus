@@ -18,6 +18,10 @@ files = [
         "path": "models/checkpoints/realiSim_By_Yogi.safetensors"
     },
     {
+        "url": "https://civitai.com/api/download/models/782002?type=Model&format=SafeTensor&size=full&fp=fp16",
+        "path": "models/checkpoints/jagganath_XL_9.safetensors"
+    },
+    {
         "url": "https://civitai.com/api/download/models/131991?type=Model&format=SafeTensor",
         "path": "models/loras/jugganath_cinematic.safetensors"
     },
