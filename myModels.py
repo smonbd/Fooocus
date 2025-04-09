@@ -20,54 +20,6 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/131991?type=Model&format=SafeTensor",
         "path": "models/loras/jugganath_cinematic.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/458257?type=Model&format=SafeTensor",
-        "path": "models/loras/hands.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/129711?type=Model&format=SafeTensor",
-        "path": "models/loras/eyes.safetensors"
-    }, 
-    {
-        "url": "https://civitai.com/api/download/models/556292?type=Model&format=SafeTensor",
-        "path": "models/loras/Crazy_Girlfriend_Mix.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/911708?type=Model&format=SafeTensor",
-        "path": "models/loras/Hourglass_Body_Shape.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/993780?type=Model&format=SafeTensor",
-        "path": "models/loras/Perfect_Round_Ass.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/481917?type=Model&format=SafeTensor",
-        "path": "models/loras/Cinematic_Shot.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor",
-        "path": "models/loras/epiCRealismHelper.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor",
-        "path": "models/loras/Detail_Tweaker_LoRA.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/122580?type=Model&format=SafeTensor",
-        "path": "models/loras/Skin_&_Hands.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/151465?type=Model&format=SafeTensor",
-        "path": "models/loras/ReaLora_Realistic_skin_texture.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
-        "path": "models/loras/details_twiker_most_downloaded.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/177674?type=Model&format=SafeTensor",
-        "path": "models/loras/nudify_XL.safetensors"
     }
 ]
 
