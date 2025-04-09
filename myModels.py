@@ -37,6 +37,10 @@ files = [
         "url": "https://civitai.com/api/download/models/707763?type=Model&format=SafeTensor",
         "path": "models/loras/RealIstic_Skin.safetensors"
     },
+    {
+        "url": "https://civitai.com/api/download/models/556292?type=Model&format=SafeTensor",
+        "path": "models/loras/Crazy_GF.safetensors"
+    }
 ]
 
 # Function to download a file
