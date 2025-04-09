@@ -44,6 +44,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/556292?type=Model&format=SafeTensor",
         "path": "models/loras/Crazy_GF.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "path": "models/loras/Details_Twicker.safetensors"
     }
 ]
 
