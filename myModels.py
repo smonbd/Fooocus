@@ -48,6 +48,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "path": "models/loras/Details_Twicker.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/1242203?type=Model&format=SafeTensor",
+        "path": "models/loras/Dramadic_Light.safetensors"
     }
 ]
 
