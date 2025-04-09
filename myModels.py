@@ -3,7 +3,7 @@ from tqdm import tqdm
 import os
 
 # CivitAI API Key (Replace with your key)
-API_KEY = "" #input("Insert CivitAI Api Key")  # Replace with your actual token
+API_KEY = input("Insert CivitAI Api Key: ")  # Replace with your actual token
 
 # Headers for authentication
 headers = {
