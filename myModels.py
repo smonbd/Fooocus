@@ -20,6 +20,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/131991?type=Model&format=SafeTensor",
         "path": "models/loras/jugganath_cinematic.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/1071060?type=Model&format=SafeTensor",
+        "path": "models/loras/detailer_by_yogi.safetensors"
     }
 ]
 
