@@ -13,10 +13,10 @@ headers = {
 
 # List of models to download
 files = [
-    #{
-        #"url": "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16",
-        #"path": "models/checkpoints/RealVisXL_V5.safetensors"
-    #},
+    {
+        "url": "https://civitai.com/api/download/models/1422871?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "path": "models/checkpoints/realiSim_By_Yogi.safetensors"
+    },
     {
         "url": "https://civitai.com/api/download/models/131991?type=Model&format=SafeTensor",
         "path": "models/loras/jugganath_cinematic.safetensors"
