@@ -28,6 +28,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/364137?type=Model&format=SafeTensor",
         "path": "models/loras/better_blur_control.safetensors"
+    },
+	{
+		"url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
+        "path": "models/loras/breast_sizer.safetensors"
     }
 ]
 
