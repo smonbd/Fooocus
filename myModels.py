@@ -48,6 +48,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/471781?type=Model&format=SafeTensor",
         "path": "models/loras/feet.safetensors"
+    },
+    {
+        "url": "https://civitai.com/api/download/models/574903?type=Model&format=SafeTensor",
+        "path": "models/loras/Reality_enhencer_pony.safetensors"
     }
 ]
 
