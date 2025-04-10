@@ -13,10 +13,10 @@ headers = {
 
 # List of models to download
 files = [
-    {
-        "url": "https://civitai.com/api/download/models/1478064?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-        "path": "models/checkpoints/cyber_realistic.safetensors"
-    },
+    #{
+        #"url": "https://civitai.com/api/download/models/1478064?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        #"path": "models/checkpoints/cyber_realistic.safetensors"
+    #},
     {
         "url": "https://civitai.com/api/download/models/1422871?type=Model&format=SafeTensor&size=pruned&fp=fp16",
         "path": "models/checkpoints/babe_stable_yogi.safetensors"
@@ -25,10 +25,10 @@ files = [
         "url": "https://civitai.com/api/download/models/1071060?type=Model&format=SafeTensor",
         "path": "models/loras/detailer_by_yogi.safetensors"
     },
-    {
-	"url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
-        "path": "models/loras/breast_sizer.safetensors"
-    },
+    #{
+	#"url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
+        #"path": "models/loras/breast_sizer.safetensors"
+    #},
     {
         "url": "https://civitai.com/api/download/models/707763?type=Model&format=SafeTensor",
         "path": "models/loras/RealIstic_Skin.safetensors"
