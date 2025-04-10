@@ -25,10 +25,10 @@ files = [
         "url": "https://civitai.com/api/download/models/1071060?type=Model&format=SafeTensor",
         "path": "models/loras/detailer_by_yogi.safetensors"
     },
-    #{
-	#"url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
-        #"path": "models/loras/breast_sizer.safetensors"
-    #},
+    {
+	"url": "https://civitai.com/api/download/models/1439429?type=Model&format=SafeTensor",
+        "path": "models/loras/pony_realism_helper.safetensors"
+    },
     {
         "url": "https://civitai.com/api/download/models/707763?type=Model&format=SafeTensor",
         "path": "models/loras/RealIstic_Skin.safetensors"
