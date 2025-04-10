@@ -22,16 +22,8 @@ files = [
         #"path": "models/checkpoints/jagganath_XL_9.safetensors"
     #},
     {
-        "url": "https://civitai.com/api/download/models/131991?type=Model&format=SafeTensor",
-        "path": "models/loras/jugganath_cinematic.safetensors"
-    },
-    {
         "url": "https://civitai.com/api/download/models/1071060?type=Model&format=SafeTensor",
         "path": "models/loras/detailer_by_yogi.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/364137?type=Model&format=SafeTensor",
-        "path": "models/loras/better_blur_control.safetensors"
     },
     {
 	"url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
@@ -52,10 +44,6 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/1242203?type=Model&format=SafeTensor",
         "path": "models/loras/Dramadic_Light.safetensors"
-    },
-    {
-        "url": "https://civitai.com/api/download/models/596040?type=Model&format=SafeTensor",
-        "path": "models/loras/RealBeuty.safetensors"
     }
 ]
 
