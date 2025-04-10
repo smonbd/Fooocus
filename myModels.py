@@ -13,10 +13,10 @@ headers = {
 
 # List of models to download
 files = [
-    #{
-        #"url": "https://civitai.com/api/download/models/1422871?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-        #"path": "models/checkpoints/realiSim_By_Yogi.safetensors"
-    #},
+    {
+        "url": "https://civitai.com/api/download/models/914390?type=Model&format=SafeTensor&size=full&fp=fp16",
+        "path": "models/checkpoints/pony_realisim.safetensors"
+    },
     #{
         #"url": "https://civitai.com/api/download/models/782002?type=Model&format=SafeTensor&size=full&fp=fp16",
         #"path": "models/checkpoints/jagganath_XL_9.safetensors"
