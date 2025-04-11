@@ -52,7 +52,10 @@ files = [
     {
         "url": "https://civitai.com/api/download/models/574903?type=Model&format=SafeTensor",
         "path": "models/loras/Reality_enhencer_pony.safetensors"
-    }
+    },
+    {
+        "url": "https://civitai.com/api/download/models/380544?type=Model&format=SafeTensor",
+        "path": "models/loras/BEUTY.safetensors"
 ]
 
 # Function to download a file
