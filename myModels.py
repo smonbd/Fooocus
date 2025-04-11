@@ -14,8 +14,8 @@ headers = {
 # List of models to download
 files = [
     {
-        "url": "https://civitai.com/api/download/models/914390?type=Model&format=SafeTensor&size=full&fp=fp16",
-        "path": "models/checkpoints/pony_realism.safetensors"
+        "url": "https://civitai.com/api/download/models/1031794?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "path": "models/checkpoints/jib_mix_realstic.safetensors"
     },
     #{
         #"url": "https://civitai.com/api/download/models/1422871?type=Model&format=SafeTensor&size=pruned&fp=fp16",
