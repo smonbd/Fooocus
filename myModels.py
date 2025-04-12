@@ -50,8 +50,8 @@ files = [
         "path": "models/loras/jagganth_Cinematic.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/128461?type=Model&format=SafeTensor",
-        "path": "models/loras/perfect_eyes.safetensors"
+        "url": "https://civitai.com/api/download/models/458257?type=Model&format=SafeTensor",
+        "path": "models/loras/All_In_One_Perfect.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/380544?type=Model&format=SafeTensor",
