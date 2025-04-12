@@ -26,8 +26,8 @@ files = [
         "path": "models/loras/detailer_by_yogi.safetensors"
     },
     {
-	"url": "https://civitai.com/api/download/models/1439429?type=Model&format=SafeTensor",
-        "path": "models/loras/pony_realism_helper.safetensors"
+	"url": "https://civitai.com/api/download/models/391999?type=Model&format=SafeTensor",
+        "path": "models/loras/SDXL_SpeedUp_for_render.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/707763?type=Model&format=SafeTensor",
