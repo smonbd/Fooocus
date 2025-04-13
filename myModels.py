@@ -98,6 +98,6 @@ def download_file(url, path):
     print(f"✅ [SUCCESS] Download completed: {path}")
 
 # Function to run all downloads
-def myModelsRun(Key):
+def myModelsRun():
     for file in files:
         download_file(file["url"], file["path"])
