@@ -3,13 +3,13 @@ from tqdm import tqdm
 import os
 
 # CivitAI API Key (Replace with your key)
-#API_KEY = input("Insert CivitAI Api Key: ")  # Replace with your actual token
+API_KEY = input("Insert CivitAI Api Key: ")  # Replace with your actual token
 
 # Headers for authentication
-#headers = {
-#    "Authorization": f"Bearer {API_KEY}",
-#    "User-Agent": "Mozilla/5.0"
-#}
+headers = {
+    "Authorization": f"Bearer {API_KEY}",
+    "User-Agent": "Mozilla/5.0"
+}
 
 # List of models to download
 files = [
@@ -99,7 +99,5 @@ def download_file(url, path):
 
 # Function to run all downloads
 def myModelsRun(Key):
-	API_KEY = Key
-	headers = {"Authorization": f"Bearer {API_KEY}", "User-Agent": "Mozilla/5.0"}
     for file in files:
         download_file(file["url"], file["path"])
