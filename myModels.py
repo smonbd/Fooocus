@@ -22,8 +22,8 @@ files = [
         #"path": "models/checkpoints/babe_stable_yogi.safetensors"
     #},
     {
-        "url": "https://civitai.com/api/download/models/1071060?type=Model&format=SafeTensor",
-        "path": "models/loras/detailer_by_yogi.safetensors"
+        "url": "https://civitai.com/api/download/models/173623?type=Model&format=SafeTensor",
+        "path": "models/loras/cloth_slider.safetensors"
     },
     {
 	"url": "https://civitai.com/api/download/models/314048?type=Model&format=SafeTensor",
