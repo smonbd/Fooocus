@@ -30,7 +30,7 @@ files = [
         "path": "models/loras/busty_cloth.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/23250?type=Model&format=SafeTensor&size=full&fp=fp16",
+        "url": "https://civitai.com/api/download/models/177674?type=Model&format=SafeTensor",
         "path": "models/loras/Nudify_Controler.safetensors"
     },
     {
