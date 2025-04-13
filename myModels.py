@@ -30,8 +30,8 @@ files = [
         "path": "models/loras/busty_cloth.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
-        "path": "models/loras/Breast_Controller.safetensors"
+        "url": "https://civitai.com/api/download/models/23250?type=Model&format=SafeTensor&size=full&fp=fp16",
+        "path": "models/loras/Nudify_Controler.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/556292?type=Model&format=SafeTensor",
