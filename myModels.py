@@ -38,8 +38,8 @@ files = [
         "path": "models/loras/Crazy_GF.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
-        "path": "models/loras/most_Details_Twicker.safetensors"
+        "url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
+        "path": "models/loras/breast_size_control.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/1242203?type=Model&format=SafeTensor",
