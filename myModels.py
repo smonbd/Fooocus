@@ -100,8 +100,6 @@ def download_file(url, path):
 # Function to run all downloads
 def myModelsRun(Key):
 	API_KEY = Key
-	headers = {
-    "Authorization": f"Bearer {API_KEY}",
-    "User-Agent": "Mozilla/5.0"}
+	headers = {"Authorization": f"Bearer {API_KEY}", "User-Agent": "Mozilla/5.0"}
     for file in files:
         download_file(file["url"], file["path"])
