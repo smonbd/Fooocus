@@ -17,10 +17,10 @@ files = [
         "url": "https://civitai.com/api/download/models/1031794?type=Model&format=SafeTensor&size=pruned&fp=fp16",
         "path": "models/checkpoints/jib_mix_realstic.safetensors"
     },
-    #{
-        #"url": "https://civitai.com/api/download/models/1422871?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-        #"path": "models/checkpoints/babe_stable_yogi.safetensors"
-    #},
+    {
+        "url": "https://civitai.com/api/download/models/709468?type=Model&format=SafeTensor&size=pruned&fp=fp32",
+        "path": "models/checkpoints/halCylon.safetensors"
+    },
     {
         "url": "https://civitai.com/api/download/models/173623?type=Model&format=SafeTensor",
         "path": "models/loras/cloth_slider.safetensors"
