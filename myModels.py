@@ -26,8 +26,8 @@ files = [
         "path": "models/loras/cloth_slider.safetensors"
     },
     {
-	"url": "https://civitai.com/api/download/models/314048?type=Model&format=SafeTensor",
-        "path": "models/loras/busty_cloth.safetensors"
+	"url": "https://civitai.com/api/download/models/1386847?type=Model&format=SafeTensor",
+        "path": "models/loras/budy_weight.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/177674?type=Model&format=SafeTensor",
