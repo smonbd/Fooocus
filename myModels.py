@@ -34,8 +34,8 @@ files = [
         "path": "models/loras/Nudify_Controler.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/556292?type=Model&format=SafeTensor",
-        "path": "models/loras/Crazy_GF.safetensors"
+        "url": "https://civitai.com/api/download/models/145907?type=Model&format=SafeTensor",
+        "path": "models/loras/Detailed_Eye.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
