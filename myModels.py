@@ -46,8 +46,8 @@ files = [
         "path": "models/loras/Dramadic_Light.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/131991?type=Model&format=SafeTensor",
-        "path": "models/loras/jagganth_Cinematic.safetensors"
+        "url": "https://civitai.com/api/download/models/827325?type=Model&format=SafeTensor",
+        "path": "models/loras/realskin.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/458257?type=Model&format=SafeTensor",
