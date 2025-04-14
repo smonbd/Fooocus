@@ -22,8 +22,8 @@ files = [
         "path": "models/checkpoints/halCylon.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/173623?type=Model&format=SafeTensor",
-        "path": "models/loras/cloth_slider.safetensors"
+        "url": "https://huggingface.co/ntc-ai/SDXL-LoRA-slider.cinematic-lighting/resolve/main/cinematic%20lighting.safetensors",
+        "path": "models/loras/cinematic_Loras_hFace.safetensors"
     },
     {
 	"url": "https://civitai.com/api/download/models/1386847?type=Model&format=SafeTensor",
