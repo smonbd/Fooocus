@@ -30,8 +30,8 @@ files = [
         "path": "models/loras/budy_weight.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/177674?type=Model&format=SafeTensor",
-        "path": "models/loras/Nudify_Controler.safetensors"
+        "url": "https://huggingface.co/ntc-ai/SDXL-LoRA-slider.color-grading/resolve/main/color%20grading.safetensors",
+        "path": "models/loras/Color_Grading_hFace.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/145907?type=Model&format=SafeTensor",
