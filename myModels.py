@@ -38,7 +38,7 @@ files = [
         "path": "models/loras/Detailed_Eye.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/173866?type=Model&format=SafeTensor",
+        "url": "https://civitai.com/api/download/models/534952?type=Model&format=SafeTensor",
         "path": "models/loras/breast_size_control.safetensors"
     },
     {
