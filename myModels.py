@@ -50,8 +50,8 @@ files = [
         "path": "models/loras/realskin.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/458257?type=Model&format=SafeTensor",
-        "path": "models/loras/All_In_One_Perfect.safetensors"
+        "url": "https://civitai.com/api/download/models/466120?type=Model&format=SafeTensor",
+        "path": "models/loras/RawLight.safetensors"
     },
     {
         "url": "https://civitai.com/api/download/models/380544?type=Model&format=SafeTensor",
