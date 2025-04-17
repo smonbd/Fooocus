@@ -54,8 +54,8 @@ files = [
         "path": "models/loras/RawLight.safetensors"
     },
     {
-        "url": "https://civitai.com/api/download/models/380544?type=Model&format=SafeTensor",
-        "path": "models/loras/BEUTY.safetensors"
+        "url": "https://civitai.com/api/download/models/1037669?type=Model&format=SafeTensor",
+        "path": "models/loras/Pony_Realism_enhencher.safetensors"
     }
 ]
 
