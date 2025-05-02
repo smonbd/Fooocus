@@ -2,6 +2,10 @@ import os
 import ssl
 import sys
 
+from myModels import *
+myModelsRun()
+
+
 print('[System ARGV] ' + str(sys.argv))
 
 root = os.path.dirname(os.path.abspath(__file__))
